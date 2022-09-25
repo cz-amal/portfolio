@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="nav_css.css">
+  <script src="https://kit.fontawesome.com/71f342e337.js" crossorigin="anonymous"></script>
+  <title>Bootstrap Navigation Bar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header id="home">
+    <div class="container">
+      <nav class="flex items-center justify-between">
+        <div class="left flex items-center">
+          <div class="branding">
+            <!-- <img class="logo" src="images/enhanced" alt=""> -->
+            <b style="font-size: 25px;">portfolio</b>
+          </div>
+          <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+
+
+
+          </div>
+        </div>
+        <div class="right">
+          <button class="bttn btn-light"><a style="text-decoration: none;" href="mailto:amaladhil020@gmail.com">
+              Contact</a></button>
+        </div>
+      </nav>
+      <div class="hero flex items-center">
+        <div class="left">
+          <img src="https://media.giphy.com/media/GP1TJJSV4Ys1r64q2A/giphy.gif" alt="">
+
+        </div>
+        <div class="right">
+          <h3>Amal c z</h3>
+          <h1>I,m a <span>Cyber Securtity</span> Enthusiasist</h1>
+          <p style="font-size: 20px;" class="description">Do you think you are not <span>hacked</span> ? Let's see.
+            During the second quarter of 2022, internet users worldwide saw approximately 52 million data breaches, down
+            by 56 percent compared to the previous quarter. In the measured period, the highest number of data breaches
+            was detected in the fourth quarter of 2020, nearly 125 million cases.
+          </p>
+
+          <button class="bttn bttn-secondary">DOWNLOAD MY CV</button>
+          <button class="bttn bttn-secondary">Hire Me</button>
+
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <section class="about " id="about">
+    <div class="container flex items-center">
+      <div class="left">
+        <img class="about_img" src="pictures/profile.jpg" alt="">
+      </div>
+      <div class="right">
+        <h1>About <span>me</span></h1>
+        <h3>Hello! I'm Amal C Z</h3>
+        <p style="font-size: 20px;">I'm a 21 year old btech computer science student from kerala,lndia.I love to learn
+          more about new technologies and inspire from them.But cyber security is always my passion.</p>
+        <div class="social">
+          <a href="https://www.github.com/cz-amal"><img src="pictures/github.png" alt="website"></a>
+          <a href="https://www.facebook.com"><img src="pictures/facebook.png" alt=""></a>
+          <a href="https://www.linkedin.com/in/amal-c-z-b06690243"><img src="pictures/linkedin.png" alt="">
+            <a href="https://www.instragram.com"><img src="pictures/network.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="skill_heading">
+        <h1><span>Skills</span> so far!</h1>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <div class="skill_logo">
+            <img src="pictures/networking.png" style="width: 128px;height: 128px;" alt="">
+          </div>
+          <h2>Networking</h2>
+          <p style="text-align:left;">Networking is the exchange of information and ideas among people with a common
+            profession or special interest, usually in an informal social setting. Networking often begins with a single
+            point of common ground.</p>
+        </div>
+        <div class="card">
+          <div class="skill_logo">
+            <img src="pictures/linux.png" style="width: 128px;height: 128px;" alt="">
+          </div>
+
+          <h2>Linux</h2>
+          <p style="text-align:left;">Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of
+            the most popular platforms on the planet.</p>
+        </div>
+        <div class="card">
+          <div class="skill_logo">
+            <img src="pictures/python.png" style="width: 128px;height: 128px;" alt="">
+          </div>
+          <h2>Python</h2>
+          <p style="text-align:left;">Python is an interpreted, object-oriented, high-level programming language with
+            dynamic semantics </p>
+        </div>
+        <div class="card">
+          <div class="skill_logo">
+            <img src="pictures/anonymous.png" style="width: 128px;height: 128px;" alt="">
+          </div>
+          <h2>Ethical Hacking</h2>
+          <p style="text-align:left;">Ethical hacking involves an authorized attempt to gain unauthorized access to a
+            computer system, application, or data.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="projects design-2" id="projects">
+    <div class="container">
+      <div class="skill_heading">
+        <h1><span>Projects</span> so far!</h1>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <div class="skill_logo">
+            <img src="pictures/arp.webp" style="width: 160px;height: 140px;" alt="">
+          </div>
+          <h2>Arp Spoofer</h2>
+          <p style="text-align:left;line-height:1.5;font-weight: 800;">Address Resolution Protocol (ARP) is a protocol
+            that enables network communications to reach a specific device on the network. ARP translates Internet
+            Protocol (IP) addresses to a Media Access Control (MAC) address, and vice versa. Most commonly, devices use
+            ARP to contact the router or gateway that enables them to connect to the Internet.</p>
+
+          <button class="bttn bttn-primary"><a class="source" href="https://github.com/cz-amal/arp-spoofer">Source
+              code</a></button>
+
+        </div>
+        <div class="card">
+          <div class="skill_logo">
+            <img src="pictures/revshell.png" style="width: 140px;height: 140px;" alt="">
+          </div>
+          <h2>Reverse shell</h2>
+          <p style="text-align:left;line-height:1.5;font-weight:800">A reverse shell, also known as a remote shell or
+            “connect-back shell,” takes advantage of the target system’s vulnerabilities to initiate a shell session and
+            then access the victim’s computer. The goal is to connect to a remote computer and redirect the input and
+            output connections of the target system’s shell so the attacker can access it remotely.</p>
+          <button class="bttn bttn-primary "><a class="source" href="https://github.com/cz-amal/backdoor">Source
+              code</a></button>
+        </div>
+  </section>
+  <section class="achievements" id="achievements">
+    <style>
+      .carousel-item {
+        height: 32rem;
+        background-color: var(--primary);
+        position: relative;
+
+      }
+
+      .achievements .left-achie img {
+        height: 200px;
+        width: 230px;
+      }
+
+      .achievements .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 350px;
+        width: 50%;
+      }
+
+      .achievements .right-achie {
+        padding: 50px;
+        line-height: 1.5;
+        font-weight: 700;
+
+      }
+    </style>
+    <div id="mycarousel" class="carousel slide" data-bs-ride="carousel" data-intervel="1000">
+
+      <ol class="carousel-indicators">
+        <li class="active" data-bs-target="#mycarousel" data-bs-slide-to="0"></li>
+        <li class="active" data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
+        <li class="active" data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
+        <li class="active" data-bs-target="#mycarousel" data-bs-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Achievements so far!</h1>
+
+          </div>
+
+          <div class="container flex items-center">
+            <div class="left-achie">
+              <img src="pictures/cisco.png" alt="">
+            </div>
+            <div class="right-achie">
+              <h1>Cisco CyberSecurity Essentials</h1>
+              <p>An 6h online course provided by cisco which covers cybere awareness and cyber attacks.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Achievements so far!</h1>
+
+          </div>
+          <div class="container flex items-center">
+            <div class="left-achie">
+              <img src="pictures/udemy.png" alt="">
+            </div>
+            <div class="right-achie">
+              <h1>Ethical Hacking From Scratch</h1>
+              <p>Introduction to kali linux and hacking tools.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Achievements so far!</h1>
+
+          </div>
+          <div class="container flex items-center">
+            <div class="left-achie">
+              <img src="pictures/udemy.png" alt="">
+            </div>
+            <div class="right-achie">
+              <h1>Ethical Hacking Using Python</h1>
+              <p>Created many hacking tools like arp spoofer,mac changer,dns spoofer,reverse shell,vulerability scanner
+                etc using python</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Achievements so far!</h1>
+
+          </div>
+          <div class="container flex items-center">
+            <div class="left-achie">
+              <img src="pictures/nptel.webp" alt="">
+            </div>
+            <div class="right-achie">
+              <h1>Ethical Hacking</h1>
+              <p>An online course provide IIT KHARAKHPUR which covers networking basics and hacking tools</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-content">
+      <h3>Portfolio</h3>
+      <p>By subscribing to our emails,you agree to our privacy and policy</p>
+      <ul class="socials">
+        <li><a href="https://www.github.com/cz-amal"><img src="pictures/github.png" alt="website"></a></li>
+        <li><a href="https://www.facebook.com"><img src="pictures/facebook.png" alt=""></a></li>
+        <li><a href="https://www.linkedin.com/in/amal-c-z-b06690243"><img src="pictures/linkedin.png" alt=""></li>
+        <li><a href="https://www.instragram.com"><img src="pictures/network.png" alt=""></a></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>copyright &copy; 2022 Portfolio. designed by <span>Amal c z</span></p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

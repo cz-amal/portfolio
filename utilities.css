@@ -1,0 +1,46 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.bttn{
+    padding: 10px 10px;
+    font-size: 1 rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.bttn-primary{
+    background: white;
+    color: var(--primary);
+   
+
+}
+.bttn-primary:hover{
+    background:black;
+    color: var(--primary);
+    transition: all .3s ease;
+    
+}
+.projects .bttn-primary:hover{
+    background:black;
+    transition: all .3s ease;
+    
+}
+.projects .bttn-primary .source:hover{
+    color: white;
+}
+.bttn-secondary:hover{
+    background:var(--secondary);
+    color: var(--primary);
+    transition: all .3s ease;
+    
+}

@@ -1,0 +1,302 @@
+@import 'utilities.css';
+
+:root {
+    --primary: #876D97;
+    --background: #F9AC66;
+    --secondary: #FF8381;
+
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: white;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing: antialiased
+}
+
+header {
+    background: var(--background);
+    height: 900px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+}
+
+.container {
+    padding: 0 15px;
+
+
+}
+
+header nav .left a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+
+}
+
+header nav .left a:hover {
+    color: var(--primary);
+}
+
+header nav {
+    padding: 2rem 0;
+}
+
+header nav .branding {
+    margin-right: 3rem;
+}
+
+.logo {
+    bottom: 45px;
+}
+
+.hero .left img {
+    width: 450px;
+    height: 500px;
+}
+
+.hero .right {
+    color: white;
+}
+
+.hero div {
+    margin-top: 30px;
+}
+
+.hero .right h3 {
+    font-size: 1.8rem;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.hero .right h1 {
+    line-height: 1.2;
+}
+
+.hero .right p {
+    line-height: 2.5;
+    margin-bottom: 2rem;
+}
+
+span {
+    color: #876D97;
+    font-weight: 800;
+
+}
+
+section {
+    padding: 6rem, 0;
+}
+
+.about_img {
+    height: 500px;
+    width: 700px;
+    border-radius: 40px;
+}
+
+.about .container {
+    margin: 40px auto;
+}
+
+.about .container .right {
+    margin-left: 130px;
+    line-height: 2.5;
+}
+
+.about .container .right h3 {
+    font-weight: 800;
+    margin: 25px auto;
+}
+
+.about .social img {
+    margin-right: 20px;
+
+}
+
+.skills .container h1 {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+
+}
+
+.skills {
+    background-color: wheat;
+    height: 900px;
+
+}
+
+.skills .cards {
+    display: grid;
+    line-height: 1.5;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+
+
+
+}
+
+.skills .cards .card {
+    background-color: #876D97;
+    text-align: center;
+    width: 400px;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+
+
+
+}
+
+.skills p,
+h2 {
+    line-height: 1.5;
+    margin: 15px;
+    text-align: center;
+}
+
+.skills h2 {
+    color: white;
+    font-weight: 800;
+}
+
+.design-1 {
+    -webkit-clip-path: polygon(61% 14%, 100% 6%, 100% 100%, 0 100%, 0 13%);
+    clip-path: polygon(61% 14%, 100% 6%, 100% 100%, 0 100%, 0 13%);
+}
+
+/* .design-2 {
+    -webkit-clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%, 0 8%);
+    clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%, 0 8%);
+} */
+
+.project_sub .proj-1 {
+    display: inline-block;
+
+    margin: 50px 50px 50px 200px;
+
+
+
+}
+
+.project_sub {
+    margin: 50px auto;
+}
+
+.projects .cards {
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    line-height: 1.5;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem; */
+
+
+
+
+}
+
+.projects .cards .card {
+    background-color: #876D97;
+    text-align: center;
+    width: 500px;
+    padding: 3rem 2rem;
+    display: inline-block;
+    margin: 3rem;
+}
+.projects{
+    background-color: white;
+}
+
+.projects h1 {
+    text-align: center;
+    margin: 0 50px auto;
+    padding-top: 50px;
+}
+
+.projects .cards .card button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 10px 100px;
+}
+/* footer{
+    background: white;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: black;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+    text-align: center;
+
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 450;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 14px;
+
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+.socials li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+} */
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 450;
+    text-transform: capitalize;
+    line-height: 3rem;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer-content p{
+    text-align: center;
+    padding-top: 10px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+.socials li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+}
+.footer-bottom p{
+    text-align: center;
+}
